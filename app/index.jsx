@@ -1,4 +1,4 @@
-import { Redirect, router } from "expo-router";
+import { Link, Redirect, router } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 import { ScrollView, Text, View, Image } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -36,6 +36,7 @@ export default function App() {
                         handlePress={() => router.push('/sign-in')}
                         containerStyles="w-full mt-7"
                     />
+                    <Link href="/dashboard">Go to dashboard</Link>
                 </View>
             </ScrollView>
 

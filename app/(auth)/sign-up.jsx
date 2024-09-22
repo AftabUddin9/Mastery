@@ -17,6 +17,7 @@ const SignUp = () => {
     username: "",
     email: "",
     password: "",
+    change_password: "",
   });
 
   const submit = async () => {

@@ -91,6 +91,18 @@ const SignIn = () => {
               Signup
             </Link>
           </View>
+
+          <View className="flex justify-center pt-5 flex-row gap-2">
+            <Text className="text-lg text-gray-100 font-pregular">
+              Forgot your password?
+            </Text>
+            <Link
+              href="/change-password"
+              className="text-lg font-psemibold text-secondary"
+            >
+              Change Password
+            </Link>
+          </View>
         </View>
       </ScrollView>
     </SafeAreaView>
